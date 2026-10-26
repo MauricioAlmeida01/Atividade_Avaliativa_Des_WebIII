@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/
+###
+POST http://localhost:3000/INSERT
+Content-Type: application/json
+
+{
+    "nome":"Maumau",
+    "email":"mau@cps.com",
+    "telefone":"00000000001",
+    "senha": "123456",
+    "cpf_cnpj": "10000000001",
+    "tipo_pessoa": "J",
+    "data_nasc" : "2001-10-09"
+}
+
+###
+DELETE http://localhost:3000/usuario/3
+
+###
+GET http://localhost:3010/animais
+
+###
+POST http://localhost:3010/addvacina
